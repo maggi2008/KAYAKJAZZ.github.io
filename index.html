@@ -8,7 +8,6 @@
         *{
             padding:0px;
             margin:0px;
-    
         }
 
         body{
@@ -17,8 +16,6 @@
             justify-content: center;
             background-color:#F9E9C8 ;
             align-items: center;
-
-
         }
 
 
@@ -30,11 +27,9 @@
             font-size: 70px;
             font-weight: bolder;
             color:black;
-
             display:flex;
                 align-items:center;
-                flex-direction:row ;
-           
+                flex-direction:row ;           
         }
         #toppvenstre{
             height: 150px;
@@ -50,7 +45,6 @@
             display: flex;
                 align-items:center ;
                 justify-content:center;
-
         }
 
 
@@ -60,10 +54,29 @@
             display:flex;
                 align-items: center;
                 justify-content: center;
+        }
 
-
+        #linkefelt{
+            height: 75px;
+            width: 100vw;
+            background-color:wheat;
+            display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: space-evenly;
         }
         
+        #linkefelt a {
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: "century gothic";
+            text-decoration: none;
+        }
+
+        #linkefelt a:hover{
+            text-decoration: underline;
+        }
 
         #hovedfelt{
             width: 80vw;
@@ -73,38 +86,43 @@
                 align-items:row;
                 flex-direction: center;
             padding: 20px;
-
+            font-size: x-large; 
         }
 
         #hovedfelt2{
-            width: 100vw;
-            min-height: 300px;
-            background-color:#F9E9C8;
-            display: flex;
+            width: 80vw;
+            min-height: 400px;
+            background-color:black ;  
+                display: flex;
                 align-items: center;
                 flex-direction: row;
                 justify-content: space-evenly;
-                
+            }
 
-
-
-        }
-
-
-        .bokser{
+        .bokser1{
             height: 250px;
-            width: 25%;
+            width: 250px;
             background-color: #0777A7;
+        }
+
+        #boksrundt1{
+            height: 300px;
+            width: 1000px;
+            align-items: center;
+            background-color: black;
+
 
         }
+
+       
         
         #midten{
             background-color: white;
             height: 250px;
-            width: 25%;
+            width: 250px;
             align-items: center;
-
-
+            
+            
         }
         
            
@@ -121,22 +139,35 @@
 <body>
     <div id="toppfelt">
         <div id="toppvenstre"><img src="images/Master of kayaking logo.png" alt="logo"></div>
-        <div id="toppmidten">KAYAK.COM</KAYAK></div>
+        <div id="toppmidten">KAYAK.COM</KAYAK> <a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/index.html"></a> </div>
         <div id="topphøyre">&#9776;</div>
+    </div>
+
+    <div id="linkefelt"> 
+        <a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/omoss.html">Om oss</a>
+        <a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/produkter.html">Produkter</a>
+        <a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/kontakt.html">Kontakt</a>
+
+        
+    
+
     </div>
 
     <div id="hovedfelt">
         <div>
-            <h1>Roger går "berserk</h1>
+            <h1>Ledende nettbutikk i Norge</h1>
             <p>
-                Adolf Hitler - Polsk søppeltømmer (1898 - 2007). <br> Mest kjent for å plassere snusen på feil side av leppa. <br>
-                Han er også den som ytret den verdensberømte setningen "Heil mich!" som betyr "Heia meg!"<br>
-                Via søppeltømmerjobben fikk han utløp for innestengte følelser, samt kroppslig avfall. <br>
-                Han kildesorterte ikke, noe Erik Solheim og Fredrik Hauge rettet sterk kritikk <br>
-                Blant hans store mesterverk finner vi søppeltønna Ludvigsen. <br>
+                
+                Vi er stolte av å være blant de fremste leverandørene av kajakker og padleutstyr i Norge. <br>
+                Som spesialistbutikk tilbyr vi et bredt utvalg av kvalitetsprodukter, kombinert med fagkunnskap og personlig veiledning. <br>
+                Vårt mål er å gjøre padling tilgjengelig for alle – fra nybegynnere som ønsker en trygg start, til erfarne padlere som stiller høye krav til utstyr og ytelse. <br>
+                Med rask levering, pålitelig service og fokus på sikkerhet er vi et naturlig førstevalg for padleentusiaster over hele landet. <br>
+                <br>
+                Les <a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/omoss.html">mer</a>
+
             </p>
 
-            </div>
+        </div>
 
         <div>
 
@@ -151,12 +182,14 @@
 
     
         <div id="hovedfelt2">
-            <div class="bokser"></div>
-            <div class="bokser" id="midten"></div>
-            <div class="bokser"></div>
+            <div class="bokser"><a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/omoss.html"><img src="images/info.jpg" alt=""></div></a>
+             <div class="bokser"><a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/produkter.html"><img src="images/Produkter.jpg" alt=""></div></a>
+            <div class="bokser"><a href="file:///C:/Users/magsve08/OneDrive%20-%20WANG%20AS/IT%201/kayak/kontakt.html"><img src="images/kontakt.jpg" alt=""></div></a>
+
+            
          </div>   
 
-
+         
 
 </body>
 </html>
